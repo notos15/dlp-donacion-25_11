@@ -26,6 +26,7 @@ export const isbndatos = async (isbn) => {
         }
 
         return {
+          
           titulo,
           autor,
           imagen: imagenBase64, // por ahora probando no me dio error si es que no tiene cover-, 
